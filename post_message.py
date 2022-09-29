@@ -2,6 +2,19 @@ import os
 from slack import WebClient
 from dotenv import load_dotenv
 from builder import construct_payload
+from sga_scrape import scrape_bad_urls
+
+bad_urls = scrape_bad_urls()
+
+slack_string = ''
+
+if bad_urls:
+    for url in bad_urls:
+        slack_string += f"{url} : {bad_urls[url]} + \n"
+
+if slack_string  == '':
+    slack_string = 'Currently no broken links'
+
 
 load_dotenv()
 
@@ -20,7 +33,7 @@ def post_quote_to_channel():
         "type": "section",
         "text": {
                 "type": "mrkdwn",
-                "text": "Wow such text"
+                "text": "*Broken SGA Links:*"
         }
     },
         {
@@ -30,7 +43,7 @@ def post_quote_to_channel():
         "type": "section",
         "text": {
             "type": "mrkdwn",
-            "text": "Wow such text"
+            "text": f"{slack_string}"
         }
     })
     # Post the onboarding message in Slack
