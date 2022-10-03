@@ -1,0 +1,25 @@
+[2022-10-03T17:08:03.093-0400] {processor.py:156} INFO - Started process (PID=86346) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:08:03.098-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-03T17:08:03.099-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:03.099-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:08:03.142-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:08:04.142-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.142-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2022-10-03T17:08:04.149-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.149-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2022-10-03T17:08:04.155-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.155-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2022-10-03T17:08:04.156-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.155-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:08:04.165-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.164-0400] {dag.py:2594} INFO - Creating ORM DAG for example_trigger_target_dag
+[2022-10-03T17:08:04.172-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:04.172-0400] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-03T17:08:04.188-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 1.095 seconds
+[2022-10-03T17:10:33.387-0400] {processor.py:156} INFO - Started process (PID=92644) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:10:33.393-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-03T17:10:33.393-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:33.393-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:10:33.435-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:10:33.578-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:33.578-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:10:33.593-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:33.593-0400] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-03T17:10:33.608-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.222 seconds
+[2022-10-03T17:12:34.541-0400] {processor.py:156} INFO - Started process (PID=97682) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:12:34.547-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-03T17:12:34.547-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:34.547-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:12:34.588-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-03T17:12:34.738-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:34.737-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:34.753-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:34.753-0400] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-03T17:12:34.769-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.229 seconds

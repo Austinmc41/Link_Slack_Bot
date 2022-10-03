@@ -1,0 +1,32 @@
+[2022-10-03T17:07:49.865-0400] {processor.py:156} INFO - Started process (PID=85758) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:07:49.869-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-03T17:07:49.870-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:49.870-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:07:49.910-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:07:50.709-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.709-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2022-10-03T17:07:50.715-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.715-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2022-10-03T17:07:50.721-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.721-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2022-10-03T17:07:50.721-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.721-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:07:50.730-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.730-0400] {dag.py:2594} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2022-10-03T17:07:50.737-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:50.736-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-03T17:07:50.751-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.887 seconds
+[2022-10-03T17:10:25.557-0400] {processor.py:156} INFO - Started process (PID=92305) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:10:25.563-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-03T17:10:25.564-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:25.564-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:10:25.608-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:10:25.759-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:25.759-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:10:25.776-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:25.776-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-03T17:10:25.797-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.241 seconds
+[2022-10-03T17:12:04.671-0400] {processor.py:156} INFO - Started process (PID=96389) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:04.677-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-03T17:12:04.678-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:04.677-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:04.716-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:04.848-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:04.847-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:04.862-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:04.862-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-03T17:12:04.877-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.206 seconds
+[2022-10-03T17:12:26.505-0400] {processor.py:156} INFO - Started process (PID=97339) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:26.510-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-03T17:12:26.511-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:26.511-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:26.560-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-03T17:12:26.724-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:26.723-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:26.741-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:26.741-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-03T17:12:26.759-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.255 seconds

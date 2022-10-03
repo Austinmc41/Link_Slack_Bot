@@ -1,0 +1,18 @@
+[2022-10-03T17:09:16.472-0400] {processor.py:156} INFO - Started process (PID=89538) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:09:16.478-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-03T17:09:16.478-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:16.478-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:09:16.539-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:09:17.408-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.408-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2022-10-03T17:09:17.415-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.415-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2022-10-03T17:09:17.421-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.421-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2022-10-03T17:09:17.421-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.421-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:09:17.431-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.431-0400] {dag.py:2594} INFO - Creating ORM DAG for example_bash_operator
+[2022-10-03T17:09:17.440-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:09:17.440-0400] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-02T00:00:00+00:00, run_after=2022-10-03T00:00:00+00:00
+[2022-10-03T17:09:17.457-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.985 seconds
+[2022-10-03T17:11:24.418-0400] {processor.py:156} INFO - Started process (PID=94777) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:11:24.424-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-03T17:11:24.425-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:24.425-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:11:24.483-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-03T17:11:24.607-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:24.607-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:11:24.624-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:24.623-0400] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-02T00:00:00+00:00, run_after=2022-10-03T00:00:00+00:00
+[2022-10-03T17:11:24.638-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.221 seconds

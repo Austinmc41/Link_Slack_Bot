@@ -1,0 +1,7 @@
+slackclient
+beautifulsoup4
+requests
+python-dotenv
+apache-airflow
+
+# make sure you have a slack bot token save in .env file

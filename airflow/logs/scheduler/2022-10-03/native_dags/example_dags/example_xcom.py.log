@@ -1,0 +1,32 @@
+[2022-10-03T17:08:00.410-0400] {processor.py:156} INFO - Started process (PID=86232) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:08:00.414-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-03T17:08:00.414-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:00.414-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:08:00.456-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:08:01.245-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.245-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_xcom
+[2022-10-03T17:08:01.252-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.252-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_xcom
+[2022-10-03T17:08:01.257-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.257-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:example_xcom
+[2022-10-03T17:08:01.257-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.257-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:08:01.266-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.265-0400] {dag.py:2594} INFO - Creating ORM DAG for example_xcom
+[2022-10-03T17:08:01.272-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:01.272-0400] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-03T17:08:01.287-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.877 seconds
+[2022-10-03T17:10:31.478-0400] {processor.py:156} INFO - Started process (PID=92566) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:10:31.484-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-03T17:10:31.485-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:31.485-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:10:31.530-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:10:31.658-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:31.658-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:10:31.673-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:31.672-0400] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-03T17:10:31.687-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.210 seconds
+[2022-10-03T17:12:11.838-0400] {processor.py:156} INFO - Started process (PID=96691) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:11.844-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-03T17:12:11.844-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:11.844-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:11.886-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:12.017-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:12.017-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:12.029-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:12.029-0400] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-03T17:12:12.042-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.204 seconds
+[2022-10-03T17:12:32.612-0400] {processor.py:156} INFO - Started process (PID=97597) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:32.617-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-03T17:12:32.618-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:32.617-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:32.658-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-03T17:12:32.793-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:32.793-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:32.808-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:32.807-0400] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-03T17:12:32.823-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.211 seconds

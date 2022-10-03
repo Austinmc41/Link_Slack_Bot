@@ -1,0 +1,25 @@
+[2022-10-03T17:08:46.081-0400] {processor.py:156} INFO - Started process (PID=88174) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:08:46.086-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-10-03T17:08:46.087-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:46.087-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:08:46.107-0400] {processor.py:768} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:08:46.989-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:46.989-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:latest_only
+[2022-10-03T17:08:46.998-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:46.997-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:latest_only
+[2022-10-03T17:08:47.003-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:47.003-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:latest_only
+[2022-10-03T17:08:47.003-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:47.003-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:08:47.013-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:47.012-0400] {dag.py:2594} INFO - Creating ORM DAG for latest_only
+[2022-10-03T17:08:47.019-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:47.019-0400] {dag.py:3324} INFO - Setting next_dagrun for latest_only to 2022-10-03T17:08:47.019695+00:00, run_after=2022-10-03T21:08:47.019695+00:00
+[2022-10-03T17:08:47.034-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.953 seconds
+[2022-10-03T17:11:01.006-0400] {processor.py:156} INFO - Started process (PID=93817) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:11:01.011-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-10-03T17:11:01.012-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:01.011-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:11:01.031-0400] {processor.py:768} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:11:01.165-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:01.165-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:11:01.176-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:11:01.176-0400] {dag.py:3324} INFO - Setting next_dagrun for latest_only to 2022-10-03T17:11:01.176799+00:00, run_after=2022-10-03T21:11:01.176799+00:00
+[2022-10-03T17:11:01.190-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.184 seconds
+[2022-10-03T17:13:01.529-0400] {processor.py:156} INFO - Started process (PID=98845) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:13:01.535-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-10-03T17:13:01.535-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:13:01.535-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:13:01.558-0400] {processor.py:768} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-10-03T17:13:01.689-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:13:01.688-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:13:01.703-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:13:01.703-0400] {dag.py:3324} INFO - Setting next_dagrun for latest_only to 2022-10-03T17:13:01.703162+00:00, run_after=2022-10-03T21:13:01.703162+00:00
+[2022-10-03T17:13:01.718-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds

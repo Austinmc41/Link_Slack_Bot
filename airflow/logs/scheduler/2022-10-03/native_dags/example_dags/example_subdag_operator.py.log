@@ -1,0 +1,42 @@
+[2022-10-03T17:08:17.361-0400] {processor.py:156} INFO - Started process (PID=86953) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:08:17.366-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-03T17:08:17.366-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:17.366-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:08:17.507-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:08:18.322-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.322-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2022-10-03T17:08:18.328-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.328-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2022-10-03T17:08:18.333-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.333-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2022-10-03T17:08:18.333-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.333-0400] {dag.py:2573} INFO - Sync 3 DAGs
+[2022-10-03T17:08:18.342-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.342-0400] {dag.py:2594} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2022-10-03T17:08:18.342-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.342-0400] {dag.py:2594} INFO - Creating ORM DAG for example_subdag_operator
+[2022-10-03T17:08:18.343-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.343-0400] {dag.py:2594} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2022-10-03T17:08:18.350-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.350-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-03T17:08:18.350-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.350-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:08:18.350-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.350-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:08:18.356-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.355-0400] {dag.py:2573} INFO - Sync 2 DAGs
+[2022-10-03T17:08:18.360-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.360-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:08:18.362-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:08:18.362-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:08:18.374-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 1.014 seconds
+[2022-10-03T17:10:42.985-0400] {processor.py:156} INFO - Started process (PID=93054) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:10:42.991-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-03T17:10:42.992-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:42.992-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:10:43.118-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:10:43.208-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.208-0400] {dag.py:2573} INFO - Sync 3 DAGs
+[2022-10-03T17:10:43.221-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.221-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-03T17:10:43.222-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.222-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:10:43.223-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.223-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:10:43.227-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.226-0400] {dag.py:2573} INFO - Sync 2 DAGs
+[2022-10-03T17:10:43.229-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.229-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:10:43.229-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:43.229-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:10:43.239-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.254 seconds
+[2022-10-03T17:12:44.417-0400] {processor.py:156} INFO - Started process (PID=98095) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:12:44.423-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-03T17:12:44.424-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.424-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:12:44.577-0400] {processor.py:768} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-03T17:12:44.687-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.687-0400] {dag.py:2573} INFO - Sync 3 DAGs
+[2022-10-03T17:12:44.705-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.704-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-03T17:12:44.707-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.707-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:12:44.708-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.707-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:12:44.712-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.712-0400] {dag.py:2573} INFO - Sync 2 DAGs
+[2022-10-03T17:12:44.716-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.716-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-03T17:12:44.716-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:44.716-0400] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-03T17:12:44.728-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.311 seconds

@@ -1,0 +1,458 @@
+[2022-10-03T17:07:42.708-0400] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-03T17:07:42.708-0400] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-03T17:07:42.708-0400] {manager.py:485} INFO - Checking for new files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags every 300 seconds
+[2022-10-03T17:07:42.709-0400] {manager.py:724} INFO - Searching for files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:07:42.723-0400] {manager.py:727} INFO - There are 37 files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:07:43.586-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.75s           2022-10-03T21:07:43
+================================================================================
+[2022-10-03T17:08:15.733-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.84s           2022-10-03T21:07:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.75s           2022-10-03T21:07:43
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.09s           2022-10-03T21:08:13
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  1.82s           2022-10-03T21:07:48
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  1.64s           2022-10-03T21:07:51
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.83s           2022-10-03T21:08:15
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.62s           2022-10-03T21:07:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.80s           2022-10-03T21:08:10
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.63s           2022-10-03T21:08:01
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  1.75s           2022-10-03T21:07:53
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.88s           2022-10-03T21:08:04
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.77s           2022-10-03T21:08:07
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.71s           2022-10-03T21:07:58
+================================================================================
+[2022-10-03T17:08:47.282-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  1.02s           2022-10-03T21:08:41
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.84s           2022-10-03T21:07:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.75s           2022-10-03T21:07:43
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.77s           2022-10-03T21:08:47
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.09s           2022-10-03T21:08:13
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.71s           2022-10-03T21:08:32
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  1.82s           2022-10-03T21:07:48
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.76s           2022-10-03T21:08:26
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  1.64s           2022-10-03T21:07:51
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.83s           2022-10-03T21:08:15
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.62s           2022-10-03T21:07:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.69s           2022-10-03T21:08:21
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.35s           2022-10-03T21:08:35
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  2.00s           2022-10-03T21:08:44
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.80s           2022-10-03T21:08:10
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.63s           2022-10-03T21:08:01
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.70s           2022-10-03T21:08:24
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  1.90s           2022-10-03T21:08:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  1.75s           2022-10-03T21:07:53
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.88s           2022-10-03T21:08:04
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.06s           2022-10-03T21:08:39
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.77s           2022-10-03T21:08:07
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.71s           2022-10-03T21:07:58
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.83s           2022-10-03T21:08:18
+================================================================================
+[2022-10-03T17:09:17.732-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  1.02s           2022-10-03T21:08:41
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.72s           2022-10-03T21:08:48
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.84s           2022-10-03T21:07:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.75s           2022-10-03T21:07:43
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.77s           2022-10-03T21:08:47
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.09s           2022-10-03T21:08:13
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  2.03s           2022-10-03T21:08:59
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.71s           2022-10-03T21:08:32
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  1.82s           2022-10-03T21:07:48
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  1.81s           2022-10-03T21:09:17
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.76s           2022-10-03T21:08:26
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.67s           2022-10-03T21:09:07
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.73s           2022-10-03T21:09:09
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  1.64s           2022-10-03T21:07:51
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.83s           2022-10-03T21:08:15
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.62s           2022-10-03T21:07:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.69s           2022-10-03T21:08:21
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.35s           2022-10-03T21:08:35
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  2.00s           2022-10-03T21:08:44
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.80s           2022-10-03T21:08:10
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.85s           2022-10-03T21:08:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.63s           2022-10-03T21:08:01
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.64s           2022-10-03T21:09:04
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.91s           2022-10-03T21:09:12
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.70s           2022-10-03T21:08:24
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  1.90s           2022-10-03T21:08:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  1.75s           2022-10-03T21:07:53
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.88s           2022-10-03T21:08:04
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  2.02s           2022-10-03T21:09:02
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.06s           2022-10-03T21:08:39
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.77s           2022-10-03T21:08:07
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.72s           2022-10-03T21:08:50
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.71s           2022-10-03T21:07:58
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  1.94s           2022-10-03T21:09:14
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.83s           2022-10-03T21:08:18
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  1.95s           2022-10-03T21:08:53
+================================================================================
+[2022-10-03T17:09:41.387-0400] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-03T17:09:47.030-0400] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-03T17:09:47.030-0400] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-03T17:09:47.030-0400] {manager.py:485} INFO - Checking for new files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags every 300 seconds
+[2022-10-03T17:09:47.030-0400] {manager.py:724} INFO - Searching for files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:09:47.057-0400] {manager.py:727} INFO - There are 37 files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:10:18.015-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           1  30.84s          2022-10-03T21:10:18
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2022-10-03T17:10:49.329-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           1  30.84s          2022-10-03T21:10:18
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.86s           2022-10-03T21:10:22
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.09s           2022-10-03T21:10:20
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.93s           2022-10-03T21:10:39
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.90s           2022-10-03T21:10:23
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.83s           2022-10-03T21:10:49
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.88s           2022-10-03T21:10:25
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.82s           2022-10-03T21:10:41
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.90s           2022-10-03T21:10:28
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.89s           2022-10-03T21:10:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.94s           2022-10-03T21:10:37
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.84s           2022-10-03T21:10:31
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.83s           2022-10-03T21:10:47
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.94s           2022-10-03T21:10:27
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.88s           2022-10-03T21:10:33
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.84s           2022-10-03T21:10:35
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.90s           2022-10-03T21:10:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.89s           2022-10-03T21:10:43
+================================================================================
+[2022-10-03T17:11:19.741-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      0           1  30.84s          2022-10-03T21:10:18
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.79s           2022-10-03T21:10:57
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.79s           2022-10-03T21:11:03
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.86s           2022-10-03T21:10:22
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.09s           2022-10-03T21:10:20
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.82s           2022-10-03T21:11:01
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.93s           2022-10-03T21:10:39
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.90s           2022-10-03T21:11:11
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.86s           2022-10-03T21:10:52
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.90s           2022-10-03T21:10:23
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.83s           2022-10-03T21:10:49
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.90s           2022-10-03T21:11:17
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.94s           2022-10-03T21:11:19
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.88s           2022-10-03T21:10:25
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.82s           2022-10-03T21:10:41
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.90s           2022-10-03T21:10:28
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.89s           2022-10-03T21:10:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.84s           2022-10-03T21:10:54
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.81s           2022-10-03T21:10:59
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.94s           2022-10-03T21:10:37
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.71s           2022-10-03T21:11:09
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.84s           2022-10-03T21:10:31
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.94s           2022-10-03T21:11:15
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.83s           2022-10-03T21:10:47
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.85s           2022-10-03T21:10:50
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.94s           2022-10-03T21:10:27
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.88s           2022-10-03T21:10:33
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.93s           2022-10-03T21:11:13
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.81s           2022-10-03T21:10:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.84s           2022-10-03T21:10:35
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.86s           2022-10-03T21:11:05
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.90s           2022-10-03T21:10:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.89s           2022-10-03T21:10:43
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  1.90s           2022-10-03T21:11:07
+================================================================================
+[2022-10-03T17:11:57.328-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.79s           2022-10-03T21:10:57
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.79s           2022-10-03T21:11:03
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.86s           2022-10-03T21:10:22
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.09s           2022-10-03T21:10:20
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      1           0  31.49s          2022-10-03T21:11:57
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.82s           2022-10-03T21:11:01
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.93s           2022-10-03T21:10:39
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.90s           2022-10-03T21:11:11
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.86s           2022-10-03T21:10:52
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.90s           2022-10-03T21:10:23
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.94s           2022-10-03T21:11:24
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.83s           2022-10-03T21:10:49
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.90s           2022-10-03T21:11:17
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.94s           2022-10-03T21:11:19
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.88s           2022-10-03T21:10:25
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.82s           2022-10-03T21:10:41
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.90s           2022-10-03T21:10:28
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.89s           2022-10-03T21:10:45
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.84s           2022-10-03T21:10:54
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.81s           2022-10-03T21:10:59
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.94s           2022-10-03T21:10:37
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.71s           2022-10-03T21:11:09
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.84s           2022-10-03T21:10:31
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.94s           2022-10-03T21:11:15
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.96s           2022-10-03T21:11:21
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.83s           2022-10-03T21:10:47
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.85s           2022-10-03T21:10:50
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.94s           2022-10-03T21:10:27
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.88s           2022-10-03T21:10:33
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.93s           2022-10-03T21:11:13
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.81s           2022-10-03T21:10:56
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.84s           2022-10-03T21:10:35
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.86s           2022-10-03T21:11:05
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.90s           2022-10-03T21:10:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.91s           2022-10-03T21:11:22
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.89s           2022-10-03T21:10:43
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  1.90s           2022-10-03T21:11:07
+================================================================================
+[2022-10-03T17:12:13.423-0400] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-03T17:12:17.570-0400] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-03T17:12:17.570-0400] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-03T17:12:17.571-0400] {manager.py:485} INFO - Checking for new files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags every 300 seconds
+[2022-10-03T17:12:17.571-0400] {manager.py:724} INFO - Searching for files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:12:17.592-0400] {manager.py:727} INFO - There are 37 files in /Users/austin/Desktop/Link_Slack_Bot/airflow/dags
+[2022-10-03T17:12:18.870-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      1           0  1.17s           2022-10-03T21:12:18
+================================================================================
+[2022-10-03T17:12:49.862-0400] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.89s           2022-10-03T21:12:22
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.00s           2022-10-03T21:12:20
+/Users/austin/Desktop/Link_Slack_Bot/airflow/dags/bl_dag.py                                                                                                      1           0  1.17s           2022-10-03T21:12:18
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.88s           2022-10-03T21:12:40
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.90s           2022-10-03T21:12:24
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.01s           2022-10-03T21:12:49
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  1.07s           2022-10-03T21:12:26
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.00s           2022-10-03T21:12:42
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.91s           2022-10-03T21:12:29
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.93s           2022-10-03T21:12:46
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.97s           2022-10-03T21:12:38
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.91s           2022-10-03T21:12:32
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.93s           2022-10-03T21:12:48
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.82s           2022-10-03T21:12:27
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.89s           2022-10-03T21:12:34
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.85s           2022-10-03T21:12:36
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.95s           2022-10-03T21:12:31
+/Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.05s           2022-10-03T21:12:44
+================================================================================
+[2022-10-03T17:13:16.893-0400] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

@@ -1,0 +1,32 @@
+[2022-10-03T17:07:55.388-0400] {processor.py:156} INFO - Started process (PID=86008) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:07:55.394-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-03T17:07:55.395-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:55.394-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:07:55.419-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:07:56.207-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.207-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:tutorial
+[2022-10-03T17:07:56.213-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.213-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:tutorial
+[2022-10-03T17:07:56.217-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.217-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:tutorial
+[2022-10-03T17:07:56.217-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.217-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:07:56.225-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.225-0400] {dag.py:2594} INFO - Creating ORM DAG for tutorial
+[2022-10-03T17:07:56.230-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:56.230-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial to 2022-10-02T21:07:56.230692+00:00, run_after=2022-10-03T21:07:56.230692+00:00
+[2022-10-03T17:07:56.245-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.858 seconds
+[2022-10-03T17:10:28.673-0400] {processor.py:156} INFO - Started process (PID=92435) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:10:28.679-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-03T17:10:28.680-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:28.679-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:10:28.702-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:10:28.847-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:28.847-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:10:28.859-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:28.859-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial to 2022-10-02T21:10:28.859505+00:00, run_after=2022-10-03T21:10:28.859505+00:00
+[2022-10-03T17:10:28.873-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.200 seconds
+[2022-10-03T17:12:07.932-0400] {processor.py:156} INFO - Started process (PID=96525) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:07.939-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-03T17:12:07.939-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:07.939-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:07.965-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:08.127-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:08.127-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:08.143-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:08.143-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial to 2022-10-02T21:12:08.143166+00:00, run_after=2022-10-03T21:12:08.143166+00:00
+[2022-10-03T17:12:08.160-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.228 seconds
+[2022-10-03T17:12:29.487-0400] {processor.py:156} INFO - Started process (PID=97455) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:29.493-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-03T17:12:29.493-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:29.493-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:29.516-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-10-03T17:12:29.674-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:29.673-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:29.689-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:29.689-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial to 2022-10-02T21:12:29.689411+00:00, run_after=2022-10-03T21:12:29.689411+00:00
+[2022-10-03T17:12:29.706-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.220 seconds

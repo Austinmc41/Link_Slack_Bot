@@ -1,0 +1,32 @@
+[2022-10-03T17:07:52.645-0400] {processor.py:156} INFO - Started process (PID=85873) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:07:52.651-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-10-03T17:07:52.651-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:52.651-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:07:52.683-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:07:53.532-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.532-0400] {manager.py:507} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2022-10-03T17:07:53.541-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.541-0400] {manager.py:507} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2022-10-03T17:07:53.547-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.546-0400] {manager.py:507} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2022-10-03T17:07:53.547-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.547-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:07:53.556-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.556-0400] {dag.py:2594} INFO - Creating ORM DAG for tutorial_dag
+[2022-10-03T17:07:53.563-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:07:53.563-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-10-03T17:07:53.577-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.933 seconds
+[2022-10-03T17:10:27.533-0400] {processor.py:156} INFO - Started process (PID=92385) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:10:27.539-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-10-03T17:10:27.540-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:27.539-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:10:27.574-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:10:27.726-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:27.726-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:10:27.742-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:10:27.742-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-10-03T17:10:27.761-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.229 seconds
+[2022-10-03T17:12:06.523-0400] {processor.py:156} INFO - Started process (PID=96473) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:06.528-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-10-03T17:12:06.528-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:06.528-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:06.558-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:06.682-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:06.681-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:06.694-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:06.694-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-10-03T17:12:06.709-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.186 seconds
+[2022-10-03T17:12:27.550-0400] {processor.py:156} INFO - Started process (PID=97384) to work on /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:27.555-0400] {processor.py:758} INFO - Processing file /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-10-03T17:12:27.555-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:27.555-0400] {dagbag.py:525} INFO - Filling up the DagBag from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:27.585-0400] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-10-03T17:12:27.713-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:27.713-0400] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-03T17:12:27.728-0400] {logging_mixin.py:117} INFO - [2022-10-03T17:12:27.728-0400] {dag.py:3324} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-10-03T17:12:27.745-0400] {processor.py:178} INFO - Processing /Users/austin/Desktop/Link_Slack_Bot/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.196 seconds
